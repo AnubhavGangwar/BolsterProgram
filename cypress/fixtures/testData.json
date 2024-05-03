@@ -1,0 +1,50 @@
+{
+    "validLoginCredentials":
+      {
+        "username": "student",
+        "password": "Password123"
+      },
+    
+    "invalidUsernameLoginCredentials": 
+      {
+        "username": "invalidUser1",
+        "password": "Password123"
+      },
+
+    "invalidPasswordCredentials": 
+        {
+          "username": "student",
+          "password": "invalidUser1"
+        },
+
+    "invaliCredentialWithUsernameAndPassword":
+        {
+            "username": "studentji",
+            "password": "invalidUser1"
+        },
+
+    "assertionTextsForVerification": 
+        {
+            "lodedLoginPage":"Test login",
+            "congratsNewPageText": "Congratulations student. You successfully logged in!",
+            "successfullNewPageText":"Logged In Successfully",
+            "InvalidPasswordErrorMessage": "Your password is invalid!",
+            "invalidUserNameErrorMessage" :"Your username is invalid!"
+
+        },
+    "api": 
+        {
+            "name": "Anubhav ",
+            "job":"Qa Engineer",
+            "newName":"Anubhav Gangwar",
+            "newJob":"Sr Qa Engineer",
+            "updatedJob":"SDET 1",
+            "email": "eve.holt@reqres.in",
+            "password": "pistol",
+            "pageID": 2,
+            "invalidID" :3000,
+            "unknownValidID":2,
+            "unknownInValidID":300
+
+        } 
+}
