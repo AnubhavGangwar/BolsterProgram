@@ -1,0 +1,19 @@
+{
+  "name": "bolster-automation-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:clean-reports": "rmdir /s /q cypress\\reports",
+    "testUI": "npm run cy:clean-reports && cypress run --spec cypress/e2e/LoginTests/loginTest.cy.js --browser chrome --headed",
+    "testApi": "npm run cy:clean-reports && cypress run --spec cypress/e2e/ApiTests/apiTest.cy.js --browser chrome",
+    "test": "npm run cy:clean-reports && cypress run "
+  },
+  "keywords": [],
+  "author": "Anubhav Gangwar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
